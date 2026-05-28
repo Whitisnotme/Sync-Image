@@ -1,0 +1,44 @@
+name: Sync Uptime-Kuma
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      IMAGE_NAME: "uptime-kuma"
+      DOCKER_IMAGE: "louislam/uptime-kuma:2"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.CR_PAT }}
+
+      - name: Pull, Push and Log
+        run: |
+          LOG_FILE="sync-${{ env.IMAGE_NAME }}.log"
+          echo "Starting sync at $(date)" > $LOG_FILE
+          
+          echo "Pulling image..." >> $LOG_FILE
+          docker pull ${{ env.DOCKER_IMAGE }} >> $LOG_FILE 2>&1
+          
+          echo "Tagging and Pushing..." >> $LOG_FILE
+          docker tag ${{ env.DOCKER_IMAGE }} ghcr.io/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:latest
+          docker push ghcr.io/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:2 >> $LOG_FILE 2>&1
+          
+          echo "Sync completed at $(date)" >> $LOG_FILE
+          mv $LOG_FILE ./${LOG_FILE}
+
+      - name: Upload Logs
+        uses: actions/upload-artifact@v4
+        with:
+          name: sync-logs
+          path: sync-${{ env.IMAGE_NAME }}.log
