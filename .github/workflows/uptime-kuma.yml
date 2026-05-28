@@ -10,7 +10,6 @@ permissions:
   packages: write
 
 env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
   DOCKERHUB_IMAGE: 'louislam/uptime-kuma'
   TAG: '2'
   IMAGE_NAME: 'uptime-kuma'
