@@ -1,0 +1,67 @@
+=== Sync Start: 2026-05-29 08:25:53 ===
+>> Pulling openlistteam/openlist:latest-ffmpeg...
+latest-ffmpeg: Pulling from openlistteam/openlist
+782e45fa39e3: Pulling fs layer
+f37d26944383: Pulling fs layer
+bf4ee6b86f96: Pulling fs layer
+b7f44ac566b0: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+cd33b942dfba: Pulling fs layer
+49720d2ed5aa: Pulling fs layer
+60c3ef2d3880: Pulling fs layer
+b7f44ac566b0: Waiting
+4f4fb700ef54: Waiting
+cd33b942dfba: Waiting
+49720d2ed5aa: Waiting
+60c3ef2d3880: Waiting
+782e45fa39e3: Download complete
+782e45fa39e3: Pull complete
+bf4ee6b86f96: Verifying Checksum
+bf4ee6b86f96: Download complete
+f37d26944383: Verifying Checksum
+f37d26944383: Download complete
+b7f44ac566b0: Verifying Checksum
+b7f44ac566b0: Download complete
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
+60c3ef2d3880: Verifying Checksum
+60c3ef2d3880: Download complete
+cd33b942dfba: Verifying Checksum
+cd33b942dfba: Download complete
+f37d26944383: Pull complete
+49720d2ed5aa: Verifying Checksum
+49720d2ed5aa: Download complete
+bf4ee6b86f96: Pull complete
+b7f44ac566b0: Pull complete
+4f4fb700ef54: Pull complete
+cd33b942dfba: Pull complete
+49720d2ed5aa: Pull complete
+60c3ef2d3880: Pull complete
+Digest: sha256:4cf2be9402b1ecd7f87e7b4fc7188cce17f533c04e045717692cbdcb4e423384
+Status: Downloaded newer image for openlistteam/openlist:latest-ffmpeg
+docker.io/openlistteam/openlist:latest-ffmpeg
+>> Tagging to ghcr.io/whitisnotme/image-02:latest-ffmpeg...
+>> Pushing...
+The push refers to repository [ghcr.io/whitisnotme/image-02]
+5f70bf18a086: Preparing
+27c05844cadb: Preparing
+7a17d65fb2ac: Preparing
+a00be622d883: Preparing
+5f70bf18a086: Preparing
+95bdafd019ed: Preparing
+4502ebf8346a: Preparing
+220cd60b4122: Preparing
+8aa2272762a4: Preparing
+4502ebf8346a: Waiting
+220cd60b4122: Waiting
+8aa2272762a4: Waiting
+5f70bf18a086: Mounted from github/gh-aw-mcpg
+95bdafd019ed: Pushed
+a00be622d883: Pushed
+27c05844cadb: Pushed
+220cd60b4122: Pushed
+8aa2272762a4: Pushed
+7a17d65fb2ac: Pushed
+4502ebf8346a: Pushed
+latest-ffmpeg: digest: sha256:0a59c62d8880a4381c8b29ae292be2272aff84c6aea21d9bb00cc620031f2e68 size: 2193
+=== Sync Success: 2026-05-29 08:26:08 ===
