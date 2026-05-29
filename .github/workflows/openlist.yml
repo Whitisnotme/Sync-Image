@@ -1,4 +1,4 @@
-name: Snyc Uptime-Kuma To GHCR
+name: Snyc OpenList To GHCR
 
 on:
   schedule:
