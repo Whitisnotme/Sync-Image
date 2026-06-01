@@ -1,0 +1,77 @@
+name: Snyc Parse-Video To GHCR
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 每天凌晨 0 点执行
+  workflow_dispatch:      # 支持手动触发
+
+permissions:
+  contents: write
+  packages: write
+
+env:
+  DOCKERHUB_IMAGE: 'wujunwei928/parse-video-py'
+  TAG: 'latest'
+  IMAGE_NAME: 'image-03'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 代码库
+        uses: actions/checkout@v4
+
+      - name: 登录到 GitHub 容器注册表
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 执行同步与记录日志
+        id: sync_step
+        run: |
+          # 1. 设置路径和文件名
+          LOG_DIR="log"
+          mkdir -p $LOG_DIR
+          LOG_FILE="sync-${{ env.IMAGE_NAME }}.log"
+          
+          # 2. 同步镜像并实时记录输出到日志文件
+          {
+            echo "=== Sync Start: $(date +'%Y-%m-%d %H:%M:%S') ==="
+            
+            echo ">> Pulling ${{ env.DOCKERHUB_IMAGE }}:${{ env.TAG }}..."
+            docker pull ${{ env.DOCKERHUB_IMAGE }}:${{ env.TAG }} || { echo "Pull Failed"; exit 1; }
+            
+            ACTOR_LOWER=$(echo '${{ github.actor }}' | tr '[:upper:]' '[:lower:]')
+            TARGET="ghcr.io/${ACTOR_LOWER}/${{ env.IMAGE_NAME }}:${{ env.TAG }}"
+            
+            echo ">> Tagging to $TARGET..."
+            docker tag ${{ env.DOCKERHUB_IMAGE }}:${{ env.TAG }} $TARGET
+            
+            echo ">> Pushing..."
+            docker push $TARGET || { echo "Push Failed"; exit 1; }
+            
+            echo "=== Sync Success: $(date +'%Y-%m-%d %H:%M:%S') ==="
+          } | tee $LOG_DIR/$LOG_FILE
+          
+          # 传递文件名给后续步骤
+          echo "log_path=$LOG_DIR/$LOG_FILE" >> $GITHUB_OUTPUT
+
+      - name: 上传 Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: sync-log-artifact
+          path: ${{ steps.sync_step.outputs.log_path }}
+
+      - name: 输出日志至 /log
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ${{ steps.sync_step.outputs.log_path }}
+          
+          # 仅在日志有变化时才 commit，避免产生大量无效 commit
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update log in /log directory"
+            git push
+          fi
