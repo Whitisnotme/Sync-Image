@@ -1,0 +1,71 @@
+=== Sync Start: 2026-06-01 21:59:46 ===
+>> Pulling wujunwei928/parse-video-py:latest...
+latest: Pulling from wujunwei928/parse-video-py
+5b4d6ff92fc4: Pulling fs layer
+0fdfb1c097c8: Pulling fs layer
+c3bb71abc6be: Pulling fs layer
+2778ca3b3b56: Pulling fs layer
+609b100c0146: Pulling fs layer
+3e0149d95746: Pulling fs layer
+77fb2a398f1a: Pulling fs layer
+d151d1db80c8: Pulling fs layer
+e16460a23fda: Pulling fs layer
+3e0149d95746: Waiting
+77fb2a398f1a: Waiting
+d151d1db80c8: Waiting
+e16460a23fda: Waiting
+2778ca3b3b56: Waiting
+609b100c0146: Waiting
+0fdfb1c097c8: Download complete
+c3bb71abc6be: Download complete
+5b4d6ff92fc4: Verifying Checksum
+5b4d6ff92fc4: Download complete
+2778ca3b3b56: Verifying Checksum
+2778ca3b3b56: Download complete
+3e0149d95746: Verifying Checksum
+3e0149d95746: Download complete
+609b100c0146: Verifying Checksum
+609b100c0146: Download complete
+77fb2a398f1a: Download complete
+d151d1db80c8: Download complete
+e16460a23fda: Verifying Checksum
+e16460a23fda: Download complete
+5b4d6ff92fc4: Pull complete
+0fdfb1c097c8: Pull complete
+c3bb71abc6be: Pull complete
+2778ca3b3b56: Pull complete
+609b100c0146: Pull complete
+3e0149d95746: Pull complete
+77fb2a398f1a: Pull complete
+d151d1db80c8: Pull complete
+e16460a23fda: Pull complete
+Digest: sha256:997c8dbd0a075c649ba91d2140ba7c8baf0ed0274bdfe65e9e66b361021f29e8
+Status: Downloaded newer image for wujunwei928/parse-video-py:latest
+docker.io/wujunwei928/parse-video-py:latest
+>> Tagging to ghcr.io/whitisnotme/image-03:latest...
+>> Pushing...
+The push refers to repository [ghcr.io/whitisnotme/image-03]
+13a772de07ce: Preparing
+9b66223a5a9c: Preparing
+56cedee01a1e: Preparing
+61514cf60b8a: Preparing
+1467b9e0b38b: Preparing
+96f04af81b80: Preparing
+c063a072b837: Preparing
+77daadf0a51f: Preparing
+219a998c6050: Preparing
+c063a072b837: Waiting
+77daadf0a51f: Waiting
+219a998c6050: Waiting
+96f04af81b80: Waiting
+61514cf60b8a: Pushed
+56cedee01a1e: Pushed
+9b66223a5a9c: Pushed
+96f04af81b80: Pushed
+77daadf0a51f: Pushed
+1467b9e0b38b: Pushed
+c063a072b837: Pushed
+13a772de07ce: Pushed
+219a998c6050: Pushed
+latest: digest: sha256:a44d8faf11057ac0ccaaa07f28d200374cbc41c1aa03169975988f73f1f110f6 size: 2205
+=== Sync Success: 2026-06-01 22:00:12 ===
