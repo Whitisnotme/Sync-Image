@@ -1,4 +1,4 @@
-name: Snyc DanMu-API To GHCR
+name: Snyc Danmu-API To GHCR
 
 on:
   schedule:
