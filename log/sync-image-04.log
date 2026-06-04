@@ -1,0 +1,57 @@
+=== Sync Start: 2026-06-04 01:10:32 ===
+>> Pulling logvar/danmu-api:latest...
+latest: Pulling from logvar/danmu-api
+6a0ac1617861: Already exists
+2ad77fb7cfd3: Already exists
+b6816b6a0419: Already exists
+35cf660f63b0: Already exists
+8c1511531b58: Pulling fs layer
+3ffef2405e27: Pulling fs layer
+6f09262d98d0: Pulling fs layer
+c7997c83a94a: Pulling fs layer
+98fbbad47a1a: Pulling fs layer
+c7997c83a94a: Waiting
+98fbbad47a1a: Waiting
+8c1511531b58: Verifying Checksum
+8c1511531b58: Download complete
+3ffef2405e27: Download complete
+6f09262d98d0: Verifying Checksum
+6f09262d98d0: Download complete
+c7997c83a94a: Download complete
+98fbbad47a1a: Verifying Checksum
+98fbbad47a1a: Download complete
+8c1511531b58: Pull complete
+3ffef2405e27: Pull complete
+6f09262d98d0: Pull complete
+c7997c83a94a: Pull complete
+98fbbad47a1a: Pull complete
+Digest: sha256:24ef7c12614af93a58eca0d90ef385001106322c665651bd1ff9db32dc58dcab
+Status: Downloaded newer image for logvar/danmu-api:latest
+docker.io/logvar/danmu-api:latest
+>> Tagging to ghcr.io/whitisnotme/image-04:latest...
+>> Pushing...
+The push refers to repository [ghcr.io/whitisnotme/image-04]
+afd677582a22: Preparing
+e8582766de75: Preparing
+8e7f3b57b444: Preparing
+c33d7f3d67fc: Preparing
+54d5798f4e09: Preparing
+27b8e0ac1f12: Preparing
+529c8b21d05e: Preparing
+b993ff69822c: Preparing
+29df493baa13: Preparing
+27b8e0ac1f12: Waiting
+b993ff69822c: Waiting
+529c8b21d05e: Waiting
+29df493baa13: Waiting
+c33d7f3d67fc: Pushed
+54d5798f4e09: Pushed
+afd677582a22: Pushed
+e8582766de75: Pushed
+27b8e0ac1f12: Mounted from github/gh-aw-firewall/api-proxy
+529c8b21d05e: Mounted from github/gh-aw-firewall/api-proxy
+b993ff69822c: Mounted from github/gh-aw-firewall/api-proxy
+29df493baa13: Mounted from github/gh-aw-firewall/api-proxy
+8e7f3b57b444: Pushed
+latest: digest: sha256:22a53434fcf6be437274118103d3ea0bc32699c5596fb5e59a89e8bf521ce3df size: 2201
+=== Sync Success: 2026-06-04 01:10:40 ===
