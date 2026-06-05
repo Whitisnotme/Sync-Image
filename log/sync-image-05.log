@@ -1,128 +1,90 @@
-=== Sync Start: 2026-06-04 22:23:12 ===
->> Pulling guovern/iptv-api:latest...
-latest: Pulling from guovern/iptv-api
-589002ba0eae: Pulling fs layer
-98914020a3be: Pulling fs layer
-be2fee0bf4ec: Pulling fs layer
-79a000d511eb: Pulling fs layer
-3c81f1f655ec: Pulling fs layer
-ddd0de0ee253: Pulling fs layer
-f4767f4e2569: Pulling fs layer
-22cf585512f6: Pulling fs layer
-dc0698e3000b: Pulling fs layer
-b77b3d98137a: Pulling fs layer
-7459629870b0: Pulling fs layer
-9aa084d45d84: Pulling fs layer
-41c13d4e5caa: Pulling fs layer
-4f4fb700ef54: Pulling fs layer
-3caa0cc3df49: Pulling fs layer
-eb1e875b38ed: Pulling fs layer
-79a000d511eb: Waiting
-3c81f1f655ec: Waiting
-ddd0de0ee253: Waiting
-f4767f4e2569: Waiting
-41c13d4e5caa: Waiting
-22cf585512f6: Waiting
-dc0698e3000b: Waiting
-4f4fb700ef54: Waiting
-3caa0cc3df49: Waiting
-eb1e875b38ed: Waiting
-b77b3d98137a: Waiting
-7459629870b0: Waiting
-9aa084d45d84: Waiting
-98914020a3be: Verifying Checksum
-98914020a3be: Download complete
-589002ba0eae: Verifying Checksum
-589002ba0eae: Download complete
-be2fee0bf4ec: Verifying Checksum
-be2fee0bf4ec: Download complete
-79a000d511eb: Verifying Checksum
-79a000d511eb: Download complete
-3c81f1f655ec: Verifying Checksum
-3c81f1f655ec: Download complete
-589002ba0eae: Pull complete
-f4767f4e2569: Verifying Checksum
-f4767f4e2569: Download complete
-98914020a3be: Pull complete
-ddd0de0ee253: Verifying Checksum
-ddd0de0ee253: Download complete
-dc0698e3000b: Verifying Checksum
-dc0698e3000b: Download complete
-22cf585512f6: Verifying Checksum
-22cf585512f6: Download complete
-7459629870b0: Download complete
-9aa084d45d84: Download complete
-4f4fb700ef54: Verifying Checksum
-4f4fb700ef54: Download complete
-41c13d4e5caa: Download complete
-eb1e875b38ed: Verifying Checksum
-eb1e875b38ed: Download complete
-3caa0cc3df49: Verifying Checksum
-3caa0cc3df49: Download complete
-b77b3d98137a: Verifying Checksum
-b77b3d98137a: Download complete
-be2fee0bf4ec: Pull complete
-79a000d511eb: Pull complete
-3c81f1f655ec: Pull complete
-ddd0de0ee253: Pull complete
-f4767f4e2569: Pull complete
-22cf585512f6: Pull complete
-dc0698e3000b: Pull complete
-b77b3d98137a: Pull complete
-7459629870b0: Pull complete
-9aa084d45d84: Pull complete
-41c13d4e5caa: Pull complete
-4f4fb700ef54: Pull complete
-3caa0cc3df49: Pull complete
-eb1e875b38ed: Pull complete
-Digest: sha256:4df4a931b68c80ad843bf8c5f182e5726cefbbdea4ebd6c594fdcff19ebde457
-Status: Downloaded newer image for guovern/iptv-api:latest
-docker.io/guovern/iptv-api:latest
+=== Sync Start: 2026-06-05 01:38:41 ===
+>> Pulling ghcr.io/sidecloudgroup/betterforward:latest...
+latest: Pulling from sidecloudgroup/betterforward
+6a0ac1617861: Already exists
+254ac41e2afd: Pulling fs layer
+fd21a26fb55d: Pulling fs layer
+3a4f2e6e1560: Pulling fs layer
+93de0e0758a2: Pulling fs layer
+d9c99a4c0913: Pulling fs layer
+5a316243defe: Pulling fs layer
+5aed25eebdeb: Pulling fs layer
+e7c8679de576: Pulling fs layer
+98804ae259e8: Pulling fs layer
+9995550227ca: Pulling fs layer
+42134f7e4a14: Pulling fs layer
+5a316243defe: Waiting
+5aed25eebdeb: Waiting
+e7c8679de576: Waiting
+98804ae259e8: Waiting
+9995550227ca: Waiting
+42134f7e4a14: Waiting
+93de0e0758a2: Waiting
+d9c99a4c0913: Waiting
+3a4f2e6e1560: Verifying Checksum
+3a4f2e6e1560: Download complete
+254ac41e2afd: Download complete
+fd21a26fb55d: Verifying Checksum
+fd21a26fb55d: Download complete
+d9c99a4c0913: Download complete
+93de0e0758a2: Download complete
+5a316243defe: Verifying Checksum
+5a316243defe: Download complete
+5aed25eebdeb: Verifying Checksum
+5aed25eebdeb: Download complete
+9995550227ca: Download complete
+98804ae259e8: Verifying Checksum
+98804ae259e8: Download complete
+42134f7e4a14: Download complete
+e7c8679de576: Verifying Checksum
+e7c8679de576: Download complete
+254ac41e2afd: Pull complete
+fd21a26fb55d: Pull complete
+3a4f2e6e1560: Pull complete
+93de0e0758a2: Pull complete
+d9c99a4c0913: Pull complete
+5a316243defe: Pull complete
+5aed25eebdeb: Pull complete
+e7c8679de576: Pull complete
+98804ae259e8: Pull complete
+9995550227ca: Pull complete
+42134f7e4a14: Pull complete
+Digest: sha256:3ee96b4e6cc4805efa6216c239ec1f5117253b79febbd0bdda398d1a5eecb0b3
+Status: Downloaded newer image for ghcr.io/sidecloudgroup/betterforward:latest
+ghcr.io/sidecloudgroup/betterforward:latest
 >> Tagging to ghcr.io/whitisnotme/image-05:latest...
 >> Pushing...
 The push refers to repository [ghcr.io/whitisnotme/image-05]
-718aba344131: Preparing
-5fd23db5cfa2: Preparing
-5f70bf18a086: Preparing
-c04566bc3ad1: Preparing
-3235f4098bbb: Preparing
-66fd9166be05: Preparing
-7d0db8993ee8: Preparing
-9ecee3793ffe: Preparing
-73d9a5285d0d: Preparing
-7dc9163d35f1: Preparing
-dec8d780aef5: Preparing
-4f8a92364dcc: Preparing
-f3b8d6c778e7: Preparing
-901041a661b2: Preparing
-f5331ea3940b: Preparing
-989e799e6349: Preparing
-7dc9163d35f1: Waiting
-66fd9166be05: Waiting
-7d0db8993ee8: Waiting
-9ecee3793ffe: Waiting
-73d9a5285d0d: Waiting
-dec8d780aef5: Waiting
-4f8a92364dcc: Waiting
-f3b8d6c778e7: Waiting
-901041a661b2: Waiting
-f5331ea3940b: Waiting
-989e799e6349: Waiting
-5f70bf18a086: Mounted from github/gh-aw-mcpg
-5fd23db5cfa2: Pushed
-c04566bc3ad1: Pushed
-718aba344131: Pushed
-3235f4098bbb: Pushed
-66fd9166be05: Pushed
-9ecee3793ffe: Pushed
-73d9a5285d0d: Pushed
-f3b8d6c778e7: Pushed
-4f8a92364dcc: Pushed
-f5331ea3940b: Pushed
-7dc9163d35f1: Pushed
-dec8d780aef5: Pushed
-989e799e6349: Pushed
-901041a661b2: Pushed
-7d0db8993ee8: Pushed
-latest: digest: sha256:d93a794d08e6228a2cd27f64bb8747a56b11128e543c8e23a26ecd24620bc06e size: 3663
-=== Sync Success: 2026-06-04 22:23:27 ===
+0f543b939c2b: Preparing
+8657adf28d4b: Preparing
+96676bb595c5: Preparing
+1d403d69718b: Preparing
+2c64e951aa02: Preparing
+f18651f2f4d9: Preparing
+a87bd4466321: Preparing
+c7c4d0fb0a0d: Preparing
+8046b081eeab: Preparing
+09a1a38fc6af: Preparing
+c92b0c861241: Preparing
+29df493baa13: Preparing
+c7c4d0fb0a0d: Waiting
+8046b081eeab: Waiting
+09a1a38fc6af: Waiting
+c92b0c861241: Waiting
+29df493baa13: Waiting
+f18651f2f4d9: Waiting
+a87bd4466321: Waiting
+8657adf28d4b: Mounted from sidecloudgroup/betterforward
+2c64e951aa02: Mounted from sidecloudgroup/betterforward
+1d403d69718b: Mounted from sidecloudgroup/betterforward
+0f543b939c2b: Mounted from sidecloudgroup/betterforward
+96676bb595c5: Mounted from sidecloudgroup/betterforward
+c7c4d0fb0a0d: Mounted from sidecloudgroup/betterforward
+a87bd4466321: Mounted from sidecloudgroup/betterforward
+8046b081eeab: Mounted from sidecloudgroup/betterforward
+f18651f2f4d9: Mounted from sidecloudgroup/betterforward
+09a1a38fc6af: Mounted from sidecloudgroup/betterforward
+29df493baa13: Mounted from sidecloudgroup/betterforward
+c92b0c861241: Mounted from sidecloudgroup/betterforward
+latest: digest: sha256:6ab8f83e3df8bcc32b12d5630b9d2e04cd78f5bcbd038e5689827eb362f9b05d size: 2824
+=== Sync Success: 2026-06-05 01:38:47 ===
