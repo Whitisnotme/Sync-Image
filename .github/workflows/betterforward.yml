@@ -1,4 +1,4 @@
-name: Snyc IPTV-API To GHCR
+name: Sync BetterForward To GHCR
 
 on:
   schedule:
@@ -10,7 +10,7 @@ permissions:
   packages: write
 
 env:
-  DOCKERHUB_IMAGE: 'guovern/iptv-api'
+  SOURCE_IMAGE: 'ghcr.io/sidecloudgroup/betterforward'
   TAG: 'latest'
   IMAGE_NAME: 'image-05'
 
@@ -40,14 +40,14 @@ jobs:
           {
             echo "=== Sync Start: $(date +'%Y-%m-%d %H:%M:%S') ==="
             
-            echo ">> Pulling ${{ env.DOCKERHUB_IMAGE }}:${{ env.TAG }}..."
-            docker pull ${{ env.DOCKERHUB_IMAGE }}:${{ env.TAG }} || { echo "Pull Failed"; exit 1; }
+            echo ">> Pulling ${{ env.SOURCE_IMAGE }}:${{ env.TAG }}..."
+            docker pull ${{ env.SOURCE_IMAGE }}:${{ env.TAG }} || { echo "Pull Failed"; exit 1; }
             
             ACTOR_LOWER=$(echo '${{ github.actor }}' | tr '[:upper:]' '[:lower:]')
             TARGET="ghcr.io/${ACTOR_LOWER}/${{ env.IMAGE_NAME }}:${{ env.TAG }}"
             
             echo ">> Tagging to $TARGET..."
-            docker tag ${{ env.DOCKERHUB_IMAGE }}:${{ env.TAG }} $TARGET
+            docker tag ${{ env.SOURCE_IMAGE }}:${{ env.TAG }} $TARGET
             
             echo ">> Pushing..."
             docker push $TARGET || { echo "Push Failed"; exit 1; }
