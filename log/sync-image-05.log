@@ -1,4 +1,4 @@
-=== Sync Start: 2026-06-05 01:38:41 ===
+=== Sync Start: 2026-06-06 03:37:09 ===
 >> Pulling ghcr.io/sidecloudgroup/betterforward:latest...
 latest: Pulling from sidecloudgroup/betterforward
 6a0ac1617861: Already exists
@@ -13,31 +13,30 @@ e7c8679de576: Pulling fs layer
 98804ae259e8: Pulling fs layer
 9995550227ca: Pulling fs layer
 42134f7e4a14: Pulling fs layer
-5a316243defe: Waiting
 5aed25eebdeb: Waiting
 e7c8679de576: Waiting
 98804ae259e8: Waiting
 9995550227ca: Waiting
-42134f7e4a14: Waiting
 93de0e0758a2: Waiting
 d9c99a4c0913: Waiting
+5a316243defe: Waiting
+42134f7e4a14: Waiting
 3a4f2e6e1560: Verifying Checksum
 3a4f2e6e1560: Download complete
 254ac41e2afd: Download complete
 fd21a26fb55d: Verifying Checksum
 fd21a26fb55d: Download complete
-d9c99a4c0913: Download complete
 93de0e0758a2: Download complete
-5a316243defe: Verifying Checksum
+d9c99a4c0913: Verifying Checksum
+d9c99a4c0913: Download complete
 5a316243defe: Download complete
-5aed25eebdeb: Verifying Checksum
 5aed25eebdeb: Download complete
-9995550227ca: Download complete
-98804ae259e8: Verifying Checksum
 98804ae259e8: Download complete
-42134f7e4a14: Download complete
-e7c8679de576: Verifying Checksum
+9995550227ca: Verifying Checksum
+9995550227ca: Download complete
 e7c8679de576: Download complete
+42134f7e4a14: Verifying Checksum
+42134f7e4a14: Download complete
 254ac41e2afd: Pull complete
 fd21a26fb55d: Pull complete
 3a4f2e6e1560: Pull complete
@@ -67,24 +66,24 @@ c7c4d0fb0a0d: Preparing
 09a1a38fc6af: Preparing
 c92b0c861241: Preparing
 29df493baa13: Preparing
+f18651f2f4d9: Waiting
+a87bd4466321: Waiting
 c7c4d0fb0a0d: Waiting
 8046b081eeab: Waiting
 09a1a38fc6af: Waiting
 c92b0c861241: Waiting
 29df493baa13: Waiting
-f18651f2f4d9: Waiting
-a87bd4466321: Waiting
-8657adf28d4b: Mounted from sidecloudgroup/betterforward
-2c64e951aa02: Mounted from sidecloudgroup/betterforward
-1d403d69718b: Mounted from sidecloudgroup/betterforward
-0f543b939c2b: Mounted from sidecloudgroup/betterforward
-96676bb595c5: Mounted from sidecloudgroup/betterforward
-c7c4d0fb0a0d: Mounted from sidecloudgroup/betterforward
-a87bd4466321: Mounted from sidecloudgroup/betterforward
-8046b081eeab: Mounted from sidecloudgroup/betterforward
-f18651f2f4d9: Mounted from sidecloudgroup/betterforward
-09a1a38fc6af: Mounted from sidecloudgroup/betterforward
-29df493baa13: Mounted from sidecloudgroup/betterforward
-c92b0c861241: Mounted from sidecloudgroup/betterforward
+2c64e951aa02: Layer already exists
+96676bb595c5: Layer already exists
+8657adf28d4b: Layer already exists
+1d403d69718b: Layer already exists
+0f543b939c2b: Layer already exists
+a87bd4466321: Layer already exists
+f18651f2f4d9: Layer already exists
+c7c4d0fb0a0d: Layer already exists
+8046b081eeab: Layer already exists
+09a1a38fc6af: Layer already exists
+c92b0c861241: Layer already exists
+29df493baa13: Layer already exists
 latest: digest: sha256:6ab8f83e3df8bcc32b12d5630b9d2e04cd78f5bcbd038e5689827eb362f9b05d size: 2824
-=== Sync Success: 2026-06-05 01:38:47 ===
+=== Sync Success: 2026-06-06 03:37:13 ===
