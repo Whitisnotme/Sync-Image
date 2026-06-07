@@ -1,4 +1,4 @@
-=== Sync Start: 2026-06-06 02:51:42 ===
+=== Sync Start: 2026-06-07 03:36:26 ===
 >> Pulling wujunwei928/parse-video-py:latest...
 latest: Pulling from wujunwei928/parse-video-py
 5b4d6ff92fc4: Pulling fs layer
@@ -10,27 +10,28 @@ c3bb71abc6be: Pulling fs layer
 77fb2a398f1a: Pulling fs layer
 d151d1db80c8: Pulling fs layer
 e16460a23fda: Pulling fs layer
-609b100c0146: Waiting
-2778ca3b3b56: Waiting
 3e0149d95746: Waiting
-77fb2a398f1a: Waiting
 d151d1db80c8: Waiting
 e16460a23fda: Waiting
+2778ca3b3b56: Waiting
+77fb2a398f1a: Waiting
+609b100c0146: Waiting
 0fdfb1c097c8: Verifying Checksum
 0fdfb1c097c8: Download complete
-c3bb71abc6be: Verifying Checksum
-c3bb71abc6be: Download complete
 2778ca3b3b56: Verifying Checksum
 2778ca3b3b56: Download complete
+c3bb71abc6be: Verifying Checksum
+c3bb71abc6be: Download complete
 5b4d6ff92fc4: Verifying Checksum
 5b4d6ff92fc4: Download complete
 3e0149d95746: Verifying Checksum
 3e0149d95746: Download complete
+77fb2a398f1a: Verifying Checksum
 77fb2a398f1a: Download complete
-d151d1db80c8: Verifying Checksum
-d151d1db80c8: Download complete
 609b100c0146: Verifying Checksum
 609b100c0146: Download complete
+d151d1db80c8: Verifying Checksum
+d151d1db80c8: Download complete
 e16460a23fda: Verifying Checksum
 e16460a23fda: Download complete
 5b4d6ff92fc4: Pull complete
@@ -59,16 +60,16 @@ c063a072b837: Preparing
 219a998c6050: Preparing
 96f04af81b80: Waiting
 c063a072b837: Waiting
-77daadf0a51f: Waiting
 219a998c6050: Waiting
+77daadf0a51f: Waiting
+56cedee01a1e: Layer already exists
 1467b9e0b38b: Layer already exists
+9b66223a5a9c: Layer already exists
 61514cf60b8a: Layer already exists
 13a772de07ce: Layer already exists
-9b66223a5a9c: Layer already exists
-56cedee01a1e: Layer already exists
 c063a072b837: Layer already exists
 96f04af81b80: Layer already exists
 77daadf0a51f: Layer already exists
 219a998c6050: Pushed
 latest: digest: sha256:a44d8faf11057ac0ccaaa07f28d200374cbc41c1aa03169975988f73f1f110f6 size: 2205
-=== Sync Success: 2026-06-06 02:51:51 ===
+=== Sync Success: 2026-06-07 03:36:37 ===
