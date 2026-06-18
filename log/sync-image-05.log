@@ -1,7 +1,7 @@
-=== Sync Start: 2026-06-17 04:15:05 ===
+=== Sync Start: 2026-06-18 04:06:07 ===
 >> Pulling ghcr.io/sidecloudgroup/betterforward:latest...
 latest: Pulling from sidecloudgroup/betterforward
-6a0ac1617861: Already exists
+6a0ac1617861: Pulling fs layer
 254ac41e2afd: Pulling fs layer
 fd21a26fb55d: Pulling fs layer
 3a4f2e6e1560: Pulling fs layer
@@ -13,31 +13,36 @@ ece0a321b506: Pulling fs layer
 b80d78e63fd6: Pulling fs layer
 d979674d08a1: Pulling fs layer
 13714214ed79: Pulling fs layer
-8b3598fff6bc: Waiting
-b80d78e63fd6: Waiting
-d979674d08a1: Waiting
-ece0a321b506: Waiting
-13714214ed79: Waiting
 2ec6c4f5926f: Waiting
 0d040cf2be28: Waiting
 2a828c70f362: Waiting
-3a4f2e6e1560: Verifying Checksum
-3a4f2e6e1560: Download complete
+8b3598fff6bc: Waiting
+b80d78e63fd6: Waiting
+d979674d08a1: Waiting
+13714214ed79: Waiting
+3a4f2e6e1560: Waiting
+ece0a321b506: Waiting
+254ac41e2afd: Verifying Checksum
 254ac41e2afd: Download complete
+6a0ac1617861: Verifying Checksum
+6a0ac1617861: Download complete
 fd21a26fb55d: Verifying Checksum
 fd21a26fb55d: Download complete
+3a4f2e6e1560: Verifying Checksum
+3a4f2e6e1560: Download complete
 ece0a321b506: Verifying Checksum
 ece0a321b506: Download complete
-2ec6c4f5926f: Verifying Checksum
-2ec6c4f5926f: Download complete
 0d040cf2be28: Verifying Checksum
 0d040cf2be28: Download complete
+6a0ac1617861: Pull complete
+2ec6c4f5926f: Verifying Checksum
+2ec6c4f5926f: Download complete
+2a828c70f362: Verifying Checksum
 2a828c70f362: Download complete
 b80d78e63fd6: Verifying Checksum
 b80d78e63fd6: Download complete
 d979674d08a1: Verifying Checksum
 d979674d08a1: Download complete
-8b3598fff6bc: Verifying Checksum
 8b3598fff6bc: Download complete
 13714214ed79: Verifying Checksum
 13714214ed79: Download complete
@@ -71,23 +76,23 @@ ba23f91cf685: Preparing
 c92b0c861241: Preparing
 29df493baa13: Preparing
 03610e6ccce8: Waiting
+0bdc31b3be42: Waiting
 0b994766dacf: Waiting
 8046b081eeab: Waiting
 09a1a38fc6af: Waiting
 c92b0c861241: Waiting
-0bdc31b3be42: Waiting
 29df493baa13: Waiting
 e685081580e1: Layer already exists
-32ac13b60e39: Layer already exists
 cdf2bf53ac3a: Layer already exists
 d3e6338ceacf: Layer already exists
 ba23f91cf685: Layer already exists
-8046b081eeab: Layer already exists
-0b994766dacf: Layer already exists
+32ac13b60e39: Layer already exists
 0bdc31b3be42: Layer already exists
+0b994766dacf: Layer already exists
 03610e6ccce8: Layer already exists
+8046b081eeab: Layer already exists
 09a1a38fc6af: Layer already exists
 29df493baa13: Layer already exists
 c92b0c861241: Layer already exists
 latest: digest: sha256:87c0b72edd48b782ceb9578c8ee09f1364441538ae06783eb5cf383518c6b693 size: 2825
-=== Sync Success: 2026-06-17 04:15:10 ===
+=== Sync Success: 2026-06-18 04:06:10 ===
