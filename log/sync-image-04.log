@@ -1,59 +1,69 @@
-=== Sync Start: 2026-06-27 01:55:19 ===
+=== Sync Start: 2026-06-28 02:05:42 ===
 >> Pulling logvar/danmu-api:latest...
 latest: Pulling from logvar/danmu-api
 55afa1ecc21d: Already exists
-1ab5d8a304ff: Already exists
-3c142f572651: Already exists
-875728841659: Already exists
-c5b45c24e544: Pulling fs layer
-06d5a59bc0d2: Pulling fs layer
-5ac72dc1ee5a: Pulling fs layer
-6f5efcf8631d: Pulling fs layer
-908cd38bbcf5: Pulling fs layer
-908cd38bbcf5: Waiting
-6f5efcf8631d: Waiting
-c5b45c24e544: Verifying Checksum
-c5b45c24e544: Download complete
-06d5a59bc0d2: Verifying Checksum
-06d5a59bc0d2: Download complete
-5ac72dc1ee5a: Verifying Checksum
-5ac72dc1ee5a: Download complete
-908cd38bbcf5: Verifying Checksum
-908cd38bbcf5: Download complete
-6f5efcf8631d: Verifying Checksum
-6f5efcf8631d: Download complete
-c5b45c24e544: Pull complete
-06d5a59bc0d2: Pull complete
-5ac72dc1ee5a: Pull complete
-6f5efcf8631d: Pull complete
-908cd38bbcf5: Pull complete
-Digest: sha256:e214bec49e85cb283c24fa11bfb919a0878ce0ca0c53d048f838a4acdc2ac8db
+3f4c164634d2: Pulling fs layer
+1d4d101ceaad: Pulling fs layer
+d10ff586f6bd: Pulling fs layer
+15e4d528d7e2: Pulling fs layer
+2b3d8412eec1: Pulling fs layer
+ff8d3a5340c4: Pulling fs layer
+e93ad73a4570: Pulling fs layer
+702bdb8d0365: Pulling fs layer
+15e4d528d7e2: Waiting
+2b3d8412eec1: Waiting
+ff8d3a5340c4: Waiting
+e93ad73a4570: Waiting
+702bdb8d0365: Waiting
+d10ff586f6bd: Download complete
+1d4d101ceaad: Verifying Checksum
+1d4d101ceaad: Download complete
+3f4c164634d2: Verifying Checksum
+3f4c164634d2: Download complete
+15e4d528d7e2: Verifying Checksum
+15e4d528d7e2: Download complete
+2b3d8412eec1: Download complete
+e93ad73a4570: Verifying Checksum
+e93ad73a4570: Download complete
+ff8d3a5340c4: Verifying Checksum
+ff8d3a5340c4: Download complete
+702bdb8d0365: Verifying Checksum
+702bdb8d0365: Download complete
+3f4c164634d2: Pull complete
+1d4d101ceaad: Pull complete
+d10ff586f6bd: Pull complete
+15e4d528d7e2: Pull complete
+2b3d8412eec1: Pull complete
+ff8d3a5340c4: Pull complete
+e93ad73a4570: Pull complete
+702bdb8d0365: Pull complete
+Digest: sha256:d65b34cf71c8850510424cf78c314ee87d9242b75fc541b2d1244ea197c4451e
 Status: Downloaded newer image for logvar/danmu-api:latest
 docker.io/logvar/danmu-api:latest
 >> Tagging to ghcr.io/whitisnotme/image-04:latest...
 >> Pushing...
 The push refers to repository [ghcr.io/whitisnotme/image-04]
-90587b8f9bbd: Preparing
-b1a322bd9324: Preparing
-380b8102e2ee: Preparing
-f23604d98541: Preparing
-311b52284852: Preparing
-1e1b55dd7f51: Preparing
-61cadb589adf: Preparing
-67d07178115b: Preparing
+ce821b256ac5: Preparing
+236b0f4e8e66: Preparing
+65c541d604ee: Preparing
+62984f80582e: Preparing
+1ef7b273ad1a: Preparing
+dd812e67e586: Preparing
+fd246171abbe: Preparing
+94ba1b56d694: Preparing
 34884abbe928: Preparing
-61cadb589adf: Waiting
-67d07178115b: Waiting
+dd812e67e586: Waiting
+fd246171abbe: Waiting
+94ba1b56d694: Waiting
 34884abbe928: Waiting
-1e1b55dd7f51: Waiting
-90587b8f9bbd: Layer already exists
-380b8102e2ee: Layer already exists
-b1a322bd9324: Layer already exists
-f23604d98541: Layer already exists
-311b52284852: Layer already exists
-67d07178115b: Layer already exists
-1e1b55dd7f51: Layer already exists
+62984f80582e: Pushed
+ce821b256ac5: Pushed
+1ef7b273ad1a: Pushed
+236b0f4e8e66: Pushed
 34884abbe928: Layer already exists
-61cadb589adf: Layer already exists
-latest: digest: sha256:13267e65bdebd84e152beb52b9862c533a7e4c6fcbeaef500ce5ce2d7df0b441 size: 2201
-=== Sync Success: 2026-06-27 01:55:23 ===
+dd812e67e586: Pushed
+fd246171abbe: Pushed
+65c541d604ee: Pushed
+94ba1b56d694: Pushed
+latest: digest: sha256:a1cb1c38ef2c72908a8b425cd8c3d6db36aad5b77e9328823e53f9c89db3d051 size: 2201
+=== Sync Success: 2026-06-28 02:05:59 ===
