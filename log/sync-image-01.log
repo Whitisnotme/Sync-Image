@@ -1,4 +1,4 @@
-=== Sync Start: 2026-06-27 02:46:06 ===
+=== Sync Start: 2026-06-28 03:25:43 ===
 >> Pulling louislam/uptime-kuma:2...
 2: Pulling from louislam/uptime-kuma
 068fedd6b0f1: Pulling fs layer
@@ -16,7 +16,6 @@ c6700029e14a: Pulling fs layer
 5d96d7777a32: Pulling fs layer
 8329a9113d39: Pulling fs layer
 703abbf6859a: Pulling fs layer
-864b7b0f219e: Waiting
 07683a18a1c6: Waiting
 575d46df4705: Waiting
 d7466d782dc4: Waiting
@@ -25,34 +24,34 @@ d7466d782dc4: Waiting
 c6700029e14a: Waiting
 5d96d7777a32: Waiting
 8329a9113d39: Waiting
-703abbf6859a: Waiting
 fd31133e23d8: Waiting
+703abbf6859a: Waiting
 79b3835561d3: Waiting
-5d2860e0a811: Verifying Checksum
+864b7b0f219e: Waiting
 5d2860e0a811: Download complete
+068fedd6b0f1: Download complete
+3d75e56d73fd: Download complete
 fd31133e23d8: Verifying Checksum
 fd31133e23d8: Download complete
 79b3835561d3: Verifying Checksum
 79b3835561d3: Download complete
-068fedd6b0f1: Verifying Checksum
-068fedd6b0f1: Download complete
-07683a18a1c6: Verifying Checksum
-07683a18a1c6: Download complete
 864b7b0f219e: Verifying Checksum
 864b7b0f219e: Download complete
-3d75e56d73fd: Download complete
+07683a18a1c6: Download complete
 7e0b8e884178: Verifying Checksum
 7e0b8e884178: Download complete
-4ef4f0c79ca2: Download complete
-c6700029e14a: Download complete
+d7466d782dc4: Download complete
 575d46df4705: Verifying Checksum
 575d46df4705: Download complete
-d7466d782dc4: Download complete
+4ef4f0c79ca2: Verifying Checksum
+4ef4f0c79ca2: Download complete
+c6700029e14a: Verifying Checksum
+c6700029e14a: Download complete
+068fedd6b0f1: Pull complete
 8329a9113d39: Verifying Checksum
 8329a9113d39: Download complete
 703abbf6859a: Verifying Checksum
 703abbf6859a: Download complete
-068fedd6b0f1: Pull complete
 5d96d7777a32: Verifying Checksum
 5d96d7777a32: Download complete
 5d2860e0a811: Pull complete
@@ -90,30 +89,30 @@ ee296e343ee4: Preparing
 eb864f7a9396: Preparing
 f991d7c79d12: Preparing
 b2008ac19409: Preparing
-89836a1c1621: Waiting
 52e7199731a0: Waiting
 d851ca0ccd01: Waiting
-af21bd06fa57: Waiting
-ee296e343ee4: Waiting
+89836a1c1621: Waiting
 79322376f0cd: Waiting
 44f3d177f74b: Waiting
+af21bd06fa57: Waiting
+ee296e343ee4: Waiting
 eb864f7a9396: Waiting
-b2008ac19409: Waiting
 f991d7c79d12: Waiting
+b2008ac19409: Waiting
 0a1ef3c40c42: Layer already exists
-49e54ac5534d: Layer already exists
-8417ec8831ad: Layer already exists
 a6aa9e853ab4: Layer already exists
+49e54ac5534d: Layer already exists
 c85b7e98da41: Layer already exists
+8417ec8831ad: Layer already exists
 52e7199731a0: Layer already exists
-d851ca0ccd01: Layer already exists
-44f3d177f74b: Layer already exists
 89836a1c1621: Layer already exists
+d851ca0ccd01: Layer already exists
 79322376f0cd: Layer already exists
 af21bd06fa57: Layer already exists
-f991d7c79d12: Layer already exists
 ee296e343ee4: Layer already exists
+44f3d177f74b: Layer already exists
 eb864f7a9396: Layer already exists
+f991d7c79d12: Layer already exists
 b2008ac19409: Pushed
 2: digest: sha256:0210f21a5da16a35e2b20cac841c33228dec37e58698d8659f93eaa7a2cd0310 size: 3468
-=== Sync Success: 2026-06-27 02:46:36 ===
+=== Sync Success: 2026-06-28 03:26:22 ===
