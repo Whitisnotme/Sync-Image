@@ -1,4 +1,4 @@
-=== Sync Start: 2026-06-28 02:05:42 ===
+=== Sync Start: 2026-06-29 02:06:08 ===
 >> Pulling logvar/danmu-api:latest...
 latest: Pulling from logvar/danmu-api
 55afa1ecc21d: Already exists
@@ -10,25 +10,26 @@ d10ff586f6bd: Pulling fs layer
 ff8d3a5340c4: Pulling fs layer
 e93ad73a4570: Pulling fs layer
 702bdb8d0365: Pulling fs layer
-15e4d528d7e2: Waiting
 2b3d8412eec1: Waiting
 ff8d3a5340c4: Waiting
 e93ad73a4570: Waiting
 702bdb8d0365: Waiting
+15e4d528d7e2: Waiting
+d10ff586f6bd: Verifying Checksum
 d10ff586f6bd: Download complete
 1d4d101ceaad: Verifying Checksum
 1d4d101ceaad: Download complete
-3f4c164634d2: Verifying Checksum
-3f4c164634d2: Download complete
 15e4d528d7e2: Verifying Checksum
 15e4d528d7e2: Download complete
+2b3d8412eec1: Verifying Checksum
 2b3d8412eec1: Download complete
 e93ad73a4570: Verifying Checksum
 e93ad73a4570: Download complete
-ff8d3a5340c4: Verifying Checksum
-ff8d3a5340c4: Download complete
+3f4c164634d2: Download complete
 702bdb8d0365: Verifying Checksum
 702bdb8d0365: Download complete
+ff8d3a5340c4: Verifying Checksum
+ff8d3a5340c4: Download complete
 3f4c164634d2: Pull complete
 1d4d101ceaad: Pull complete
 d10ff586f6bd: Pull complete
@@ -52,18 +53,18 @@ dd812e67e586: Preparing
 fd246171abbe: Preparing
 94ba1b56d694: Preparing
 34884abbe928: Preparing
-dd812e67e586: Waiting
 fd246171abbe: Waiting
+dd812e67e586: Waiting
 94ba1b56d694: Waiting
 34884abbe928: Waiting
-62984f80582e: Pushed
-ce821b256ac5: Pushed
-1ef7b273ad1a: Pushed
-236b0f4e8e66: Pushed
+236b0f4e8e66: Layer already exists
+62984f80582e: Layer already exists
+65c541d604ee: Layer already exists
+1ef7b273ad1a: Layer already exists
+ce821b256ac5: Layer already exists
+dd812e67e586: Layer already exists
+fd246171abbe: Layer already exists
 34884abbe928: Layer already exists
-dd812e67e586: Pushed
-fd246171abbe: Pushed
-65c541d604ee: Pushed
-94ba1b56d694: Pushed
+94ba1b56d694: Layer already exists
 latest: digest: sha256:a1cb1c38ef2c72908a8b425cd8c3d6db36aad5b77e9328823e53f9c89db3d051 size: 2201
-=== Sync Success: 2026-06-28 02:05:59 ===
+=== Sync Success: 2026-06-29 02:06:12 ===
