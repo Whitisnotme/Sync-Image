@@ -1,74 +1,73 @@
-=== Sync Start: 2026-07-24 02:24:57 ===
+=== Sync Start: 2026-07-25 02:23:43 ===
 >> Pulling wujunwei928/parse-video-py:latest...
 latest: Pulling from wujunwei928/parse-video-py
-5b4d6ff92fc4: Pulling fs layer
-0fdfb1c097c8: Pulling fs layer
-c3bb71abc6be: Pulling fs layer
-2778ca3b3b56: Pulling fs layer
-22272883d281: Pulling fs layer
-f54b08b96a53: Pulling fs layer
-c4cc99508d4a: Pulling fs layer
-792617d7e86e: Pulling fs layer
-33ead756887b: Pulling fs layer
-2778ca3b3b56: Waiting
-22272883d281: Waiting
-c4cc99508d4a: Waiting
-792617d7e86e: Waiting
-33ead756887b: Waiting
-f54b08b96a53: Waiting
-0fdfb1c097c8: Verifying Checksum
-0fdfb1c097c8: Download complete
-c3bb71abc6be: Verifying Checksum
-c3bb71abc6be: Download complete
-5b4d6ff92fc4: Verifying Checksum
-5b4d6ff92fc4: Download complete
-2778ca3b3b56: Verifying Checksum
-2778ca3b3b56: Download complete
-f54b08b96a53: Verifying Checksum
-f54b08b96a53: Download complete
-c4cc99508d4a: Download complete
-5b4d6ff92fc4: Pull complete
-792617d7e86e: Verifying Checksum
-792617d7e86e: Download complete
-22272883d281: Verifying Checksum
-22272883d281: Download complete
-33ead756887b: Verifying Checksum
-33ead756887b: Download complete
-0fdfb1c097c8: Pull complete
-c3bb71abc6be: Pull complete
-2778ca3b3b56: Pull complete
-22272883d281: Pull complete
-f54b08b96a53: Pull complete
-c4cc99508d4a: Pull complete
-792617d7e86e: Pull complete
-33ead756887b: Pull complete
-Digest: sha256:672144603e55bc4b1f18735371af0f94d20981ca8b7e36fefb25f96a4292f657
+062e450697fa: Pulling fs layer
+60e855e0dd95: Pulling fs layer
+2f7d10ea5bd9: Pulling fs layer
+acf9e06c2d45: Pulling fs layer
+4550d7632f4e: Pulling fs layer
+36db740cf929: Pulling fs layer
+756fd2ccec79: Pulling fs layer
+9766500e88ad: Pulling fs layer
+72e4b51d3804: Pulling fs layer
+acf9e06c2d45: Waiting
+4550d7632f4e: Waiting
+36db740cf929: Waiting
+756fd2ccec79: Waiting
+9766500e88ad: Waiting
+72e4b51d3804: Waiting
+60e855e0dd95: Verifying Checksum
+60e855e0dd95: Download complete
+2f7d10ea5bd9: Download complete
+062e450697fa: Verifying Checksum
+062e450697fa: Download complete
+acf9e06c2d45: Verifying Checksum
+acf9e06c2d45: Download complete
+36db740cf929: Verifying Checksum
+36db740cf929: Download complete
+756fd2ccec79: Verifying Checksum
+756fd2ccec79: Download complete
+9766500e88ad: Download complete
+4550d7632f4e: Verifying Checksum
+4550d7632f4e: Download complete
+062e450697fa: Pull complete
+72e4b51d3804: Verifying Checksum
+72e4b51d3804: Download complete
+60e855e0dd95: Pull complete
+2f7d10ea5bd9: Pull complete
+acf9e06c2d45: Pull complete
+4550d7632f4e: Pull complete
+36db740cf929: Pull complete
+756fd2ccec79: Pull complete
+9766500e88ad: Pull complete
+72e4b51d3804: Pull complete
+Digest: sha256:86a2f9f5fc67be2dfcae7d1b2b36384fb785da96e4f4244c011269c4282a9da2
 Status: Downloaded newer image for wujunwei928/parse-video-py:latest
 docker.io/wujunwei928/parse-video-py:latest
 >> Tagging to ghcr.io/whitisnotme/image-03:latest...
 >> Pushing...
 The push refers to repository [ghcr.io/whitisnotme/image-03]
-f494cc2b784b: Preparing
-b156d78f90a2: Preparing
-eae52b5a5b5f: Preparing
-9a5b38281200: Preparing
-438656d2c59b: Preparing
-96f04af81b80: Preparing
-c063a072b837: Preparing
-77daadf0a51f: Preparing
-219a998c6050: Preparing
-c063a072b837: Waiting
-77daadf0a51f: Waiting
-219a998c6050: Waiting
-96f04af81b80: Waiting
-eae52b5a5b5f: Layer already exists
-9a5b38281200: Layer already exists
-f494cc2b784b: Layer already exists
-b156d78f90a2: Layer already exists
-438656d2c59b: Layer already exists
-96f04af81b80: Layer already exists
-77daadf0a51f: Layer already exists
-c063a072b837: Layer already exists
-219a998c6050: Pushed
-latest: digest: sha256:c34a1ef3623ec160e1d4d2b126896dd94b45bb516a526f550a4908401364addf size: 2205
-=== Sync Success: 2026-07-24 02:25:10 ===
+0d72b23d6cbe: Preparing
+3007aab991ca: Preparing
+708b6f10e8d7: Preparing
+2f2bdff662d0: Preparing
+f5e224d148a2: Preparing
+85579ebf440f: Preparing
+ea06dab957fd: Preparing
+6a8e860a2471: Preparing
+f2ec4de84f55: Preparing
+85579ebf440f: Waiting
+ea06dab957fd: Waiting
+6a8e860a2471: Waiting
+f2ec4de84f55: Waiting
+3007aab991ca: Pushed
+2f2bdff662d0: Pushed
+708b6f10e8d7: Pushed
+85579ebf440f: Pushed
+6a8e860a2471: Pushed
+f5e224d148a2: Pushed
+ea06dab957fd: Pushed
+0d72b23d6cbe: Pushed
+f2ec4de84f55: Pushed
+latest: digest: sha256:e4380b6b9a9c16ab742ab8ac95cbaaad9a347419f75acfb12fb907e79679a29c size: 2205
+=== Sync Success: 2026-07-25 02:23:57 ===
