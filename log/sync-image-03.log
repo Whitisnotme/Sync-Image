@@ -1,4 +1,4 @@
-=== Sync Start: 2026-11-05 04:58:54 ===
+=== Sync Start: 2026-11-06 04:58:35 ===
 >> Pulling wujunwei928/parse-video-py:latest...
 latest: Pulling from wujunwei928/parse-video-py
 ecc510c1e359: Pulling fs layer
@@ -10,27 +10,27 @@ cd7189886d0c: Pulling fs layer
 5adc8bbcb2cd: Pulling fs layer
 c51291f111a9: Pulling fs layer
 c33f5c5a6b36: Pulling fs layer
-c51291f111a9: Waiting
 cd7189886d0c: Waiting
-c33f5c5a6b36: Waiting
 5adc8bbcb2cd: Waiting
+c51291f111a9: Waiting
+c33f5c5a6b36: Waiting
 cc1cbe171e30: Waiting
 0ce188ddaa30: Waiting
 1189ef607cc6: Verifying Checksum
 1189ef607cc6: Download complete
-79f4247a2db5: Verifying Checksum
-79f4247a2db5: Download complete
-cc1cbe171e30: Verifying Checksum
-cc1cbe171e30: Download complete
 ecc510c1e359: Verifying Checksum
 ecc510c1e359: Download complete
+cc1cbe171e30: Verifying Checksum
+cc1cbe171e30: Download complete
 cd7189886d0c: Verifying Checksum
 cd7189886d0c: Download complete
+79f4247a2db5: Verifying Checksum
+79f4247a2db5: Download complete
+5adc8bbcb2cd: Verifying Checksum
 5adc8bbcb2cd: Download complete
+c51291f111a9: Download complete
 0ce188ddaa30: Verifying Checksum
 0ce188ddaa30: Download complete
-c51291f111a9: Verifying Checksum
-c51291f111a9: Download complete
 c33f5c5a6b36: Verifying Checksum
 c33f5c5a6b36: Download complete
 ecc510c1e359: Pull complete
@@ -57,18 +57,18 @@ ce0b7c14fc54: Preparing
 e117d9c82914: Preparing
 a49f6dbcd8e9: Preparing
 15f1c8eb1ab1: Preparing
-45360af7f983: Waiting
 e117d9c82914: Waiting
+45360af7f983: Waiting
 a49f6dbcd8e9: Waiting
 15f1c8eb1ab1: Waiting
-253ebd198451: Pushed
-ce0b7c14fc54: Pushed
-43e237f4a330: Pushed
-45360af7f983: Pushed
-a49f6dbcd8e9: Pushed
-855c8a8e1bbb: Pushed
-e117d9c82914: Pushed
-feecac64faf0: Pushed
+855c8a8e1bbb: Layer already exists
+253ebd198451: Layer already exists
+feecac64faf0: Layer already exists
+43e237f4a330: Layer already exists
+ce0b7c14fc54: Layer already exists
+45360af7f983: Layer already exists
+e117d9c82914: Layer already exists
+a49f6dbcd8e9: Layer already exists
 15f1c8eb1ab1: Pushed
 latest: digest: sha256:2c543f96c68f8885955fa213aeb6777eb4499e0bd6086d997857825429104cdc size: 2205
-=== Sync Success: 2026-11-05 04:59:07 ===
+=== Sync Success: 2026-11-06 04:58:44 ===
