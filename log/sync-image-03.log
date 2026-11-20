@@ -1,36 +1,36 @@
-=== Sync Start: 2026-11-19 05:49:08 ===
+=== Sync Start: 2026-11-20 05:37:50 ===
 >> Pulling wujunwei928/parse-video-py:latest...
 latest: Pulling from wujunwei928/parse-video-py
 67e5538b7f2d: Pulling fs layer
-74c146c0e1e2: Pulling fs layer
-540329e36a14: Pulling fs layer
 0069ea31add0: Pulling fs layer
-81db34f5013a: Pulling fs layer
-37fb86c2a767: Pulling fs layer
-cea49b542e56: Pulling fs layer
+540329e36a14: Pulling fs layer
 faa890a31e98: Pulling fs layer
 f7a79299dedd: Pulling fs layer
+74c146c0e1e2: Pulling fs layer
+37fb86c2a767: Pulling fs layer
+81db34f5013a: Pulling fs layer
 4b68c3c5d7ca: Pulling fs layer
-540329e36a14: Download complete
-f7a79299dedd: Download complete
-67e5538b7f2d: Download complete
+cea49b542e56: Pulling fs layer
 a58452014345: Download complete
 44136fa355b3: Already exists
-0069ea31add0: Download complete
-faa890a31e98: Download complete
+f7a79299dedd: Download complete
+67e5538b7f2d: Download complete
 81db34f5013a: Download complete
 4b68c3c5d7ca: Download complete
+0069ea31add0: Download complete
+540329e36a14: Download complete
+faa890a31e98: Download complete
 37fb86c2a767: Download complete
 cea49b542e56: Download complete
 74c146c0e1e2: Download complete
-0069ea31add0: Pull complete
 37fb86c2a767: Pull complete
+0069ea31add0: Pull complete
 f7a79299dedd: Pull complete
 faa890a31e98: Pull complete
-74c146c0e1e2: Pull complete
-540329e36a14: Pull complete
 81db34f5013a: Pull complete
 4b68c3c5d7ca: Pull complete
+540329e36a14: Pull complete
+74c146c0e1e2: Pull complete
 67e5538b7f2d: Pull complete
 cea49b542e56: Pull complete
 Digest: sha256:ac35788c6665bb94f4661a16a4139fabea977e8c0bd3622874a804919a2db990
@@ -39,36 +39,35 @@ docker.io/wujunwei928/parse-video-py:latest
 >> Tagging to ghcr.io/whitisnotme/image-03:latest...
 >> Pushing...
 The push refers to repository [ghcr.io/whitisnotme/image-03]
-4b68c3c5d7ca: Waiting
-540329e36a14: Waiting
+74c146c0e1e2: Waiting
+0069ea31add0: Waiting
 81db34f5013a: Waiting
-faa890a31e98: Waiting
 cea49b542e56: Waiting
 a58452014345: Waiting
-67e5538b7f2d: Waiting
-f7a79299dedd: Waiting
-74c146c0e1e2: Waiting
-37fb86c2a767: Waiting
-0069ea31add0: Waiting
 44136fa355b3: Waiting
-a58452014345: Waiting
+67e5538b7f2d: Waiting
+540329e36a14: Waiting
+faa890a31e98: Waiting
+f7a79299dedd: Waiting
+37fb86c2a767: Waiting
+4b68c3c5d7ca: Waiting
+74c146c0e1e2: Waiting
+0069ea31add0: Waiting
+81db34f5013a: Waiting
+cea49b542e56: Layer already exists
+a58452014345: Already exists
+44136fa355b3: Waiting
 67e5538b7f2d: Layer already exists
+540329e36a14: Layer already exists
+faa890a31e98: Waiting
+f7a79299dedd: Waiting
+37fb86c2a767: Layer already exists
+4b68c3c5d7ca: Layer already exists
 f7a79299dedd: Layer already exists
 74c146c0e1e2: Layer already exists
-37fb86c2a767: Waiting
 0069ea31add0: Layer already exists
-44136fa355b3: Waiting
-4b68c3c5d7ca: Layer already exists
-540329e36a14: Layer already exists
 81db34f5013a: Layer already exists
+44136fa355b3: Already exists
 faa890a31e98: Layer already exists
-cea49b542e56: Layer already exists
-44136fa355b3: Waiting
-37fb86c2a767: Waiting
-44136fa355b3: Waiting
-44136fa355b3: Waiting
-44136fa355b3: Mounted from github/github-mcp-server
-37fb86c2a767: Pushed
-a58452014345: Pushed
 latest: digest: sha256:ac35788c6665bb94f4661a16a4139fabea977e8c0bd3622874a804919a2db990 size: 856
-=== Sync Success: 2026-11-19 05:49:14 ===
+=== Sync Success: 2026-11-20 05:37:53 ===
