@@ -1,52 +1,52 @@
-=== Sync Start: 2026-11-26 06:37:43 ===
+=== Sync Start: 2026-11-27 06:27:59 ===
 >> Pulling louislam/uptime-kuma:2...
 2: Pulling from louislam/uptime-kuma
-4d1f8d9b4b57: Pulling fs layer
-4e5b6da3de5c: Pulling fs layer
-02782329cc64: Pulling fs layer
-0c4023204e5b: Pulling fs layer
-ce5cd2f9c1b6: Pulling fs layer
-076cba098ace: Pulling fs layer
-cd656a2df58f: Pulling fs layer
-cce880541c96: Pulling fs layer
-8b35d7212965: Pulling fs layer
-9c8da0bf82ec: Pulling fs layer
-d0058e4497e4: Pulling fs layer
-febcea9aff3d: Pulling fs layer
-aa4e89108622: Pulling fs layer
-c102e89cc99c: Pulling fs layer
 dd051e1b8c92: Pulling fs layer
-d0058e4497e4: Download complete
+8b35d7212965: Pulling fs layer
+0c4023204e5b: Pulling fs layer
+c102e89cc99c: Pulling fs layer
+4d1f8d9b4b57: Pulling fs layer
+febcea9aff3d: Pulling fs layer
+d0058e4497e4: Pulling fs layer
+4e5b6da3de5c: Pulling fs layer
+cd656a2df58f: Pulling fs layer
+076cba098ace: Pulling fs layer
+aa4e89108622: Pulling fs layer
+ce5cd2f9c1b6: Pulling fs layer
+02782329cc64: Pulling fs layer
+9c8da0bf82ec: Pulling fs layer
+cce880541c96: Pulling fs layer
 febcea9aff3d: Download complete
-076cba098ace: Download complete
-cce880541c96: Download complete
-9c8da0bf82ec: Download complete
 4e5b6da3de5c: Download complete
+076cba098ace: Download complete
+9c8da0bf82ec: Download complete
+cce880541c96: Download complete
+d0058e4497e4: Download complete
 8b35d7212965: Download complete
 44136fa355b3: Already exists
 aa4e89108622: Download complete
 aaad0407da99: Download complete
 c102e89cc99c: Download complete
 02782329cc64: Download complete
-cd656a2df58f: Download complete
+0c4023204e5b: Download complete
 4d1f8d9b4b57: Download complete
 dd051e1b8c92: Download complete
-0c4023204e5b: Download complete
+cd656a2df58f: Download complete
 dd051e1b8c92: Pull complete
 076cba098ace: Pull complete
 ce5cd2f9c1b6: Download complete
 cce880541c96: Pull complete
 aa4e89108622: Pull complete
 0c4023204e5b: Pull complete
-d0058e4497e4: Pull complete
 c102e89cc99c: Pull complete
+d0058e4497e4: Pull complete
 cd656a2df58f: Pull complete
-9c8da0bf82ec: Pull complete
 4e5b6da3de5c: Pull complete
+9c8da0bf82ec: Pull complete
 8b35d7212965: Pull complete
 02782329cc64: Pull complete
-ce5cd2f9c1b6: Pull complete
 febcea9aff3d: Pull complete
+ce5cd2f9c1b6: Pull complete
 4d1f8d9b4b57: Pull complete
 Digest: sha256:8e4b6bef96417ec98a35dc103c99cc64fc229a01e584e56d95d9004d2003c02a
 Status: Downloaded newer image for louislam/uptime-kuma:2
@@ -54,83 +54,53 @@ docker.io/louislam/uptime-kuma:2
 >> Tagging to ghcr.io/whitisnotme/image-01:2...
 >> Pushing...
 The push refers to repository [ghcr.io/whitisnotme/image-01]
+0c4023204e5b: Unavailable
 02782329cc64: Unavailable
-cd656a2df58f: Unavailable
-febcea9aff3d: Unavailable
+9c8da0bf82ec: Unavailable
+aa4e89108622: Unavailable
 4d1f8d9b4b57: Unavailable
 4e5b6da3de5c: Unavailable
 8b35d7212965: Unavailable
-aa4e89108622: Unavailable
-ce5cd2f9c1b6: Unavailable
-dd051e1b8c92: Unavailable
-9c8da0bf82ec: Unavailable
-0c4023204e5b: Unavailable
-076cba098ace: Unavailable
 cce880541c96: Unavailable
-c102e89cc99c: Unavailable
-d0058e4497e4: Unavailable
-aa4e89108622: Unavailable
 ce5cd2f9c1b6: Unavailable
-dd051e1b8c92: Unavailable
-9c8da0bf82ec: Unavailable
-0c4023204e5b: Unavailable
-076cba098ace: Unavailable
-cce880541c96: Unavailable
-c102e89cc99c: Unavailable
-d0058e4497e4: Unavailable
-02782329cc64: Unavailable
 cd656a2df58f: Unavailable
+dd051e1b8c92: Unavailable
 febcea9aff3d: Unavailable
+d0058e4497e4: Unavailable
+076cba098ace: Unavailable
+c102e89cc99c: Unavailable
+dd051e1b8c92: Unavailable
+febcea9aff3d: Unavailable
+d0058e4497e4: Unavailable
+076cba098ace: Unavailable
+c102e89cc99c: Unavailable
+0c4023204e5b: Unavailable
+02782329cc64: Unavailable
+9c8da0bf82ec: Unavailable
+aa4e89108622: Unavailable
 4d1f8d9b4b57: Unavailable
 4e5b6da3de5c: Unavailable
 8b35d7212965: Unavailable
-d0058e4497e4: Unavailable
-02782329cc64: Unavailable
-cd656a2df58f: Unavailable
-febcea9aff3d: Unavailable
-4d1f8d9b4b57: Unavailable
-4e5b6da3de5c: Unavailable
-8b35d7212965: Unavailable
-aa4e89108622: Unavailable
-ce5cd2f9c1b6: Unavailable
-dd051e1b8c92: Unavailable
-9c8da0bf82ec: Unavailable
-0c4023204e5b: Unavailable
-076cba098ace: Unavailable
 cce880541c96: Unavailable
-c102e89cc99c: Unavailable
-0c4023204e5b: Unavailable
-076cba098ace: Unavailable
-cce880541c96: Unavailable
-c102e89cc99c: Unavailable
-d0058e4497e4: Unavailable
-02782329cc64: Unavailable
-cd656a2df58f: Unavailable
-febcea9aff3d: Unavailable
-4d1f8d9b4b57: Unavailable
-4e5b6da3de5c: Unavailable
-8b35d7212965: Unavailable
-aa4e89108622: Unavailable
 ce5cd2f9c1b6: Unavailable
-dd051e1b8c92: Unavailable
-9c8da0bf82ec: Unavailable
-0c4023204e5b: Layer already exists
-076cba098ace: Layer already exists
-cce880541c96: Layer already exists
-c102e89cc99c: Layer already exists
+cd656a2df58f: Unavailable
 d0058e4497e4: Layer already exists
+076cba098ace: Layer already exists
+c102e89cc99c: Layer already exists
+0c4023204e5b: Layer already exists
 02782329cc64: Layer already exists
-cd656a2df58f: Layer already exists
-febcea9aff3d: Layer already exists
+9c8da0bf82ec: Layer already exists
+aa4e89108622: Layer already exists
 4d1f8d9b4b57: Layer already exists
 4e5b6da3de5c: Layer already exists
 8b35d7212965: Layer already exists
-aa4e89108622: Layer already exists
+cce880541c96: Layer already exists
 ce5cd2f9c1b6: Layer already exists
+cd656a2df58f: Layer already exists
 dd051e1b8c92: Layer already exists
-9c8da0bf82ec: Layer already exists
+febcea9aff3d: Layer already exists
 2: digest: sha256:bc81e600a1b18824e7eaecbb0167c2a1c732475fc499c1e3253752b965946036 size: 3156
 
  Info -> Not all multiplatform-content is present and only the available single-platform image was pushed
          [31msha256:8e4b6bef96417ec98a35dc103c99cc64fc229a01e584e56d95d9004d2003c02a[0m -> [32msha256:bc81e600a1b18824e7eaecbb0167c2a1c732475fc499c1e3253752b965946036[0m
-=== Sync Success: 2026-11-26 06:38:01 ===
+=== Sync Success: 2026-11-27 06:28:18 ===
